@@ -1,0 +1,33 @@
+.alignmentTool > div > div {
+    display: inline-block;
+}
+  
+.alignmentTool button {
+    background: transparent;
+    color: #ddd;
+    font-size: 18px;
+    border: 0;
+    padding-top: 5px;
+    vertical-align: bottom;
+    height: 34px;
+    width: 36px;
+    border-radius: 4px;
+}
+  
+.alignmentTool button svg {
+    fill: #888;
+}
+  
+.alignmentTool button:hover,
+.alignmentTool button:focus {
+    background: #444;
+    outline: 0; /* reset for :focus */
+}
+  
+.alignmentTool .active {
+    color: #6a9cc9;
+}
+  
+.alignmentTool .active svg {
+    fill: #444;
+}
